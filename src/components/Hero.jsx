@@ -25,35 +25,26 @@ export default function Hero() {
           </p>
 
           <div className="hero-actions fade-up">
-            {/* Ancora para #contato — o usuário escolhe o canal lá */}
-            <a
-              href="#contato"
-              className="btn-primary"
-              data-track="hero-contato"
-            >
+            <a href="#contato" className="btn-primary" data-track="hero-contato">
               Falar no WhatsApp →
             </a>
-            <a
-              href="#projetos"
-              className="btn-ghost"
-              data-track="hero-projetos"
-            >
+            <a href="#projetos" className="btn-ghost" data-track="hero-projetos">
               Ver projetos
             </a>
           </div>
 
           <div className="hero-stats fade-up">
-            <div>
+            <div className="hero-stat">
               <div className="hero-stat-num">3°</div>
               <div className="hero-stat-label">Semestre — CC UniCEUB</div>
             </div>
             <div className="hero-stat-divider" />
-            <div>
+            <div className="hero-stat">
               <div className="hero-stat-num">2<span>+</span></div>
               <div className="hero-stat-label">Projetos entregues</div>
             </div>
             <div className="hero-stat-divider" />
-            <div>
+            <div className="hero-stat">
               <div className="hero-stat-num">Full</div>
               <div className="hero-stat-label">Stack Developer</div>
             </div>
