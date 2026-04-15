@@ -34,9 +34,10 @@ export default function Hero() {
           </div>
 
           <div className="hero-stats fade-up">
+            {/* "terceiro semestre" removido — mantém apenas o curso */}
             <div className="hero-stat">
-              <div className="hero-stat-num">3°</div>
-              <div className="hero-stat-label">Semestre — CC UniCEUB</div>
+              <div className="hero-stat-num">CC</div>
+              <div className="hero-stat-label">Ciência da Computação</div>
             </div>
             <div className="hero-stat-divider" />
             <div className="hero-stat">
